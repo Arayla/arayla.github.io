@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Kaythy's Projects</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+                <a class = "nav-link active" aria-current="page" href="./projects.html">Projects</a>
+            </li>
+            </ul>
+        </div>
+        <div>
+        <a class="navbar-brand" href="#">
+            <img src="../resources/Wisteria Icon.jpg" alt="Bootstrap" width="30" height="24">
+        </a>
+        </div>
+        </div>
+    </nav>
+    <div id="projects" class="carousel carousel-dark slide">
+        <div class="carousel-indicators" id="carousel-bottom-indicators">
+          <button type="button" data-bs-target="#projects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#projects" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#projects" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../resources/Project1 image.jpg" class="d-block w-100" alt="Project1" id="carousel-item-1">
+            <div class="carousel-caption d-none d-md-block">
+                
+              <h5><mark style="background-color:white":>Curls-On-The-Block-Project</mark></h5>
+              <p><mark style="background-color:white":>I am currently working on a project with a non-profit organization called Blueprint. This project involves coding a new website that contains a database for people with curly hair. This website will contain information of various products and hairstyles for different hair types.</mark></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../resources/Project2 Image.jpg" class="d-block w-100" alt="Project2" id="carousel-item-2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><mark style="background-color:white":>Research Under Bowman Lab</mark></h5>
+              <p><mark style="background-color:white":>I am currently doing research on thiol-aminols and thiol-amides for the Bowman Lab at CU Boulder. This research involves synthesis reactions, analyzing products, seperations, and extractions.</mark></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../resources/Project3.jpg" class="d-block w-100" alt="project3" id="carousel-item-3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><mark style="background-color:white":>Model Development for Separation Via Gas Permeation using Carbon Membrane</mark></h5>
+              <p><mark style="background-color:white":>I collaborated with peers on a research paper detailing the best mechanisms to model gas permeation through a carbon membrane. We also presented out findings to other fellow peers.</mark></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#projects" data-bs-slide="prev" id="carousel-prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#projects" data-bs-slide="next" id="carousel-next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <footer class="text-center text-lg-start bg-body-tertiary text-muted" id="footer">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with me on social networks:</span>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/kaythy-liao/overlay/contact-info/" class="me-4 text-reset">
+                    <img src="../resources/LinkedInLogo.jpg" class="img-fluid rounded-start" alt="LinkedInLogo" id="LinkedInLogo" width="25px">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Arayla" class="me-4 text-reset">
+                    <img src="../resources/GitHub Logo.jpg" class="img-fluid rounded-start" alt="GitHub Logo" id="GitHubLogo" width="25px">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+      </footer>
+    </body>
+</html>
